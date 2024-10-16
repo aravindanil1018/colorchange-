@@ -17,7 +17,7 @@ function App() {
     <h2 className="border border-dark bg-dark text-light">Background color changing project</h2>
      <div className='container-fluid vh-100  vw-100 d-flex justify-align-center align-items-center px-auto'style={{backgroundColor:color }}>
       <div className='row p-5 '>
-        <div className='col  '>
+        <div className='col justify-align-center align-items-center m-1 '>
           <button  className='btn btn-danger 'onClick={()=>setcolor("red")} >Red</button> {""}
          < button className='btn btn-success text-dark'onClick={()=>setcolor("Green")}>Green</button>{""}
           <button className='btn btn-warning text-dark'onClick={()=>setcolor("Yellow")}>Yellow</button>{""}
